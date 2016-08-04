@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Folium &amp; StoryBook</title>
+	<link href="style.css" rel="stylesheet">
+	<link href="media.css" rel="stylesheet">
+	
+	<script src="js/index.js" async></script>
+</head>
+<body>
+	<header class="container">
+			<a href="#" title="Folium logo" class="logo">
+				Folium &amp; StoryBook
+				<img src="img/book-laugh-and-walk.svg" id="logo">
+			</a>
+			<div class="registration"></div>
+				<ul class="authorization">
+					<li>
+						<a href="form/signup.html">Реєстрація</a>
+					</li>
+					<li class="vertical-splitter">
+						<a href="form/signin.html">Увійти</a>
+					</li>
+				</ul>
+	</header>
+	<main class="page">
+		<div class="banner"></div>
+	</main>
+	<footer>
+	<p class="copyright">&#169; Folium &amp; StoryBook, 2016</p>
+	 <p class="back-top">
+		<a href="#" class="btn" onclick="return up()" hidden="false" id = "up"></a>
+	</p>
+		<script async>
+			function up()		
+			{
+				"use strict"
+				var top = Math.max(document.body.scrollTop, document.documentElement.scrollTop)
+				var t;
+				if(top > 0)
+				{
+					document.getElementById ("up").style.display = "block"
+					window.scrollBy(0,-100)
+					t = setTimeout("up()",30)
+				} 
+				else clearTimeout(t)
+				return false
+			}
+
+			window.onscroll = function ()
+			{
+				if ( window.pageYOffset > 0 )
+				{
+					document.getElementById("up").style.display = "block"
+				}
+				else
+				{
+					document.getElementById("up").style.display = "none"
+				}
+				console.log("onscroll")
+			}
+		</script>
+	</footer>
+</body>
+</html>

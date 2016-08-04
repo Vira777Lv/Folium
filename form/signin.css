@@ -1,0 +1,81 @@
+@font-face
+{
+  src: url("fonts/proximanova-semibold.otf");
+  font-family: "Proxima Nova", sans-serif;
+}
+.input-group 
+{
+  width: 340px;
+  margin: 20px auto;
+  position: relative;
+  top: 25vh;
+}
+
+.btn
+{
+ border-radius: 33px;
+ cursor: pointer;
+ width: 290px;
+ height: 50px;
+ font: 20px "Proxima Nova", sans-serif;
+ background: rgba(255, 92, 51,0.3);
+ border: 0;
+ color: rgb(255,255,255);
+}
+
+.btn:hover
+{
+  background: rgba(255, 92, 51, 0.5);
+}
+
+.btn:focus
+{
+  outline: none;
+}
+
+body
+{
+  font-family: "Proxima Nova", sans-serif;
+  background-image: url(../img/bg-form.jpg);
+  background-size: 100% auto;
+}
+
+form
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Proxima Nova", sans-serif;
+}
+
+input 
+{
+  border: 0;
+  border-bottom: 1px solid rgb(255, 195, 140);
+  font-size: 20px;
+  font-family: "Proxima Nova", sans-serif;
+  width: 290px;
+  cursor: pointer;
+  color: rgba(255, 92, 51, .8);
+  text-align: center;
+  background: unset;
+  padding: 0;
+  outline: none; 
+}
+
+input::-webkit-input-placeholder
+{
+  color: rgba(255, 92, 51, 0.5);
+}
+
+input:focus
+{
+  outline: none;
+}
+
+input::selection 
+{ 
+  background: rgba(255, 92, 51, 0.3); 
+}
+
+
