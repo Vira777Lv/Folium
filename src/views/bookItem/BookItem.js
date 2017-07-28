@@ -16,12 +16,12 @@ function BookItem(props) {
           <h3>{author}</h3>
           <p>{description}</p>
         </figcaption>
-      </figure>
-      <Link to={`/books/${_id}/${title}`}>
-            <span>
+        <Link to={`/books/${_id}/${title}`}>
+            <span className={styles.btnMoreInfo}>
               Детальніше...
             </span>
-      </Link>
+        </Link>
+      </figure>
     </article>
   )
 }
