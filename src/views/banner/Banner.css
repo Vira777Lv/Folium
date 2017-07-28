@@ -1,11 +1,9 @@
 .banner {
-  width: 100%;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 1366px;
-  min-width: 320px;
-  height: 650px;
+  height: 90vh;
   box-sizing:border-box;
   background: url(../../../public/img/book.jpg) no-repeat bottom / cover;
   border: 1px solid rgb(214, 219, 221);
