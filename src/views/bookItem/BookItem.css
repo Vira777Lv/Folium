@@ -1,0 +1,76 @@
+span {
+  color: blue;
+  cursor: pointer;
+  margin-top: 20px;
+  display: block;
+}
+.article {
+  display: flex;
+  flex-direction: column;
+  flex-basis: auto;
+  min-width: 320px;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(214, 219, 221);
+  border-radius: 5px;
+  margin: 20px 0 20px 20px;
+  padding: 10px;
+  width: 520px;
+  text-align: left;
+  line-height: 25px;
+  overflow: hidden;
+}
+
+.article img {
+  width: 100%;
+  max-width: 180px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.bookInfo img {
+  width: 100%;
+  max-width: 190px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),
+  0 6px 20px 0 rgba(0,0,0,0.19);
+  margin: 0 auto;
+}
+
+.bookInfo h2 {
+  color: rgb(44, 47, 66);
+  font-size: 20px;
+  font-weight: 400;
+  padding: 0 25px;
+  margin:10px 0;
+}
+
+.bookInfo h2:hover {
+  color:rgb(255, 51, 102);
+  text-decoration: underline;
+}
+
+.bookInfo h3 {
+  color: rgb(44, 47, 66);
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0 25px;
+  margin:10px 0;
+}
+
+.bookInfo h3:before {
+  content:"\270D";
+  font-size: 25px;
+  color: rgb(179, 0, 0);
+  padding-right: 10px;
+}
+
+.bookInfo p {
+  color: rgb(77, 77, 77);
+  font-size: 14px;
+  padding: 0 20px;
+}
+
+.bookInfo p:first-letter {
+  color:rgb(255, 51, 102);
+  font-size: 40px;
+  font-family: 'Georgia', sans-serif;
+  padding-left: 5px;
+}

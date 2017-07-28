@@ -1,0 +1,11 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  background: url(../../../public/img/bg.png);
+  box-sizing: border-box;
+}
+
+.main {
+  margin: 0 auto;
+  padding: 0;
+}

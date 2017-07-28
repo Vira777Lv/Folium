@@ -1,0 +1,33 @@
+.banner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1366px;
+  min-width: 320px;
+  height: 650px;
+  box-sizing:border-box;
+  background: url(../../../public/img/book.jpg) no-repeat bottom / cover;
+  border: 1px solid rgb(214, 219, 221);
+}
+
+.banner div {
+  margin-top: -120px;
+  /*background-color: rgba(6, 12, 43, .5);*/
+  background-color: rgba(255, 255, 255, .7);
+  border-radius: 3px;
+  /*color: #fff;*/
+  color: rgb(87, 175, 3);
+  text-align: center;
+  padding: 50px;
+}
+
+.banner h1 {
+  font-size: 40px;
+  font-family: 'Droid Serif', serif;
+}
+
+.banner p {
+  margin-top: 20px;
+  font-size: 20px;
+}

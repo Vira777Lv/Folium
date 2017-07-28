@@ -1,0 +1,14 @@
+footer
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(6, 12, 43);
+  color: #fff;
+  padding: 20px 0;
+}
+
+.copyright:hover
+{
+  color: rgb(8, 242, 231);
+}
